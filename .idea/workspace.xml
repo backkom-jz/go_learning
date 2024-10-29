@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2nPXkHv7jgxfHCwF4PAtG1hMw0c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build go_learning/ch25/http_router.executor": "Run",
+    "Go Build.go build go_learning/ch25/tools/http.executor": "Run",
+    "Go Test.BenchmarkConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
+    "Go Test.BenchmarkConcatStringByBytesBuffer in go_learning/ch24/benchmark.executor": "Run",
+    "Go Test.TestAsyncService in go_learning/ch24/csp.executor": "Run",
+    "Go Test.TestAtomic in go_learning/ch24/unsafe_programming.executor": "Run",
+    "Go Test.TestBubbleSort in go_learning/ch1021/test_bulllesort.executor": "Run",
+    "Go Test.TestCloseChannel in go_learning/ch24/channel_close.executor": "Run",
+    "Go Test.TestConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
+    "Go Test.TestCounterThreadSafe in go_learning/ch24/share_memory.executor": "Run",
+    "Go Test.TestCounterWaitGroup in go_learning/ch24/share_memory.executor": "Run",
+    "Go Test.TestCreateEmployeeObj in go_learning/ch06/encap_test.executor": "Run",
+    "Go Test.TestDeepEqual in go_learning/ch24/reflect.executor": "Run",
+    "Go Test.TestEmbeddedJson in go_learning/ch25/easyjson.executor": "Run",
+    "Go Test.TestEmbeddedJson in go_learning/ch25/json.executor": "Run",
+    "Go Test.TestErrorInCode in go_learning/ch24/unit_test.executor": "Run",
+    "Go Test.TestFactory in go_learning/ch11/factory.executor": "Run",
+    "Go Test.TestFailInCode in go_learning/ch24/unit_test.executor": "Run",
+    "Go Test.TestFibList in go_learning/ch2/fib.executor": "Run",
+    "Go Test.TestFirstResponse in go_learning/ch24/util_anyone_reply.executor": "Run",
+    "Go Test.TestFn in go_learning/ch11/customer_type.executor": "Run",
+    "Go Test.TestGetSingletonObj in go_learning/ch24/singleton.executor": "Run",
+    "Go Test.TestGoroutine in go_learning/ch24/goroutine.executor": "Run",
+    "Go Test.TestGoruntime in go_learning/ch11/goruntime.executor": "Run",
+    "Go Test.TestInterface in go_learning/ch22/interface_test.executor": "Run",
+    "Go Test.TestInvokeByName in go_learning/ch24/reflect.executor": "Run",
+    "Go Test.TestObjPool in go_learning/ch24/obj_pool.executor": "Run",
+    "Go Test.TestQuickSort in go_learning/ch1022/quick_sort.executor": "Run",
+    "Go Test.TestSelect in go_learning/ch24/select.executor": "Run",
+    "Go Test.TestService in go_learning/ch24/csp.executor": "Run",
+    "Go Test.TestShareMemory in go_learning/ch24/share_memory.executor": "Run",
+    "Go Test.TestSingleton in go_learning/ch11/singleton.executor": "Run",
+    "Go Test.TestSpec in go_learning/ch24/bdd.executor": "Run",
+    "Go Test.TestSquare in go_learning/ch24/unit_test.executor": "Run",
+    "Go Test.TestSquareWithAssert in go_learning/ch24/unit_test.executor": "Run",
+    "Go Test.TestSumElems in go_learning/ch25/pipe_filter/pipe_filter.executor": "Run",
+    "Go Test.TestSyncPool in go_learning/ch24/obj_cache.executor": "Run",
+    "Go Test.TestSyncPoolInMultiGroutine in go_learning/ch24/obj_cache.executor": "Run",
+    "Go Test.go test go_learning/ch11/singleton.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/xiaopangyuan",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch25" />
+      <recent name="$PROJECT_DIR$/ch24" />
+      <recent name="$PROJECT_DIR$/ch24/reflect" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go_learning/ch25/tools/http">
+    <configuration name="go build go_learning/ch25/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch25/http_router" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch25/http_router/http_router.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_learning/ch25/tools/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch25/tools/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/ch25/tools/http/fb_server.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEmbeddedJson in go_learning/ch25/easyjson" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/ch25/easyjson" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch25/easyjson" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestEmbeddedJson\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEmbeddedJson in go_learning/ch25/json" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/ch25/json" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch25/json" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestEmbeddedJson\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSumElems in go_learning/ch25/pipe_filter/pipe_filter" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/ch25/pipe_filter/pipe_filter" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/ch25/pipe_filter/pipe_filter" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSumElems\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go_learning/ch25/tools/http" />
+        <item itemvalue="Go Build.go build go_learning/ch25/http_router" />
+        <item itemvalue="Go Test.TestEmbeddedJson in go_learning/ch25/easyjson" />
+        <item itemvalue="Go Test.TestEmbeddedJson in go_learning/ch25/json" />
+        <item itemvalue="Go Test.TestSumElems in go_learning/ch25/pipe_filter/pipe_filter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-2946fb9b3188-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.15026.17" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="结构体 及其行为" />
+    <MESSAGE value="常量&amp;fib" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
