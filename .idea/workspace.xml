@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/download/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/File/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/auth/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/bindModel/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/cookie/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/multiTemplate/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/render/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gin/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/longest_substring_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/map_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch24/benchmark/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch24/benchmark/coverage.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/easyjson/struct_def_easyjson.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/tools/file/cpu.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/cpu.prof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/tools/file/goroutine.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/goroutine.prof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/tools/file/mem.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/mem.prof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/tools/file/prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/prof" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch25/tools/file/profile001.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/profile001.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.work" beforeDir="false" afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.work.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gin/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gin/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
