@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface">
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.work.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pointer/pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
     "Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy.executor": "Run",
     "Go Test.TestMapMutex in go_learning/src/map.executor": "Run",
     "Go Test.TestObjPool in go_learning/ch24/obj_pool.executor": "Run",
+    "Go Test.TestPointer in go_learning/src/pointer.executor": "Run",
     "Go Test.TestQuickSort in go_learning/ch1022/quick_sort.executor": "Run",
     "Go Test.TestSelect in go_learning/ch24/select.executor": "Run",
     "Go Test.TestService in go_learning/ch24/csp.executor": "Run",
@@ -112,16 +112,7 @@
       <recent name="$PROJECT_DIR$/gin/gin01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy">
-    <configuration name="go build go_learning/ch25/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/ch25/http_router" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ch25/http_router/http_router.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestPointer in go_learning/src/pointer">
     <configuration name="go build go_learning/ch25/tools/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -164,13 +155,25 @@
       <pattern value="^\QTestMapMutex\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestPointer in go_learning/src/pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/src/pointer" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/src/pointer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestPointer\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPointer in go_learning/src/pointer" />
         <item itemvalue="Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy" />
         <item itemvalue="Go Test.TestMapMutex in go_learning/src/map" />
         <item itemvalue="Go Build.go build go_learning/src/gin" />
         <item itemvalue="Go Build.go build go_learning/ch25/tools/http" />
-        <item itemvalue="Go Build.go build go_learning/ch25/http_router" />
       </list>
     </recent_temporary>
   </component>
