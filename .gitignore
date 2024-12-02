@@ -1,0 +1,5 @@
+.idea
+.gitignore
+go.sum
+go.work
+go.work.sum

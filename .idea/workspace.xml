@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface" />
+    <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/download/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/File/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/auth/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/bindModel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/cookie/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/multiTemplate/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/render/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/templates/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gin/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/longest_substring_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/map_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch24/benchmark/coverage.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch24/benchmark/coverage.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/easyjson/struct_def_easyjson.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/tools/file/cpu.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/cpu.prof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/tools/file/goroutine.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/goroutine.prof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/tools/file/mem.prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/mem.prof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/tools/file/prof" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/prof" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch25/tools/file/profile001.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch25/tools/file/profile001.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.work" beforeDir="false" afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.work.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gin/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gin/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Go File" />
       </list>
     </option>
@@ -23,6 +51,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -35,8 +66,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Go Build.go build go_learning/ch25/http_router.executor": "Run",
     "Go Build.go build go_learning/ch25/tools/http.executor": "Run",
+    "Go Build.go build go_learning/src/gin.executor": "Run",
     "Go Test.BenchmarkConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
     "Go Test.BenchmarkConcatStringByBytesBuffer in go_learning/ch24/benchmark.executor": "Run",
     "Go Test.TestAsyncService in go_learning/ch24/csp.executor": "Run",
@@ -61,6 +94,8 @@
     "Go Test.TestGoruntime in go_learning/ch11/goruntime.executor": "Run",
     "Go Test.TestInterface in go_learning/ch22/interface_test.executor": "Run",
     "Go Test.TestInvokeByName in go_learning/ch24/reflect.executor": "Run",
+    "Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy.executor": "Run",
+    "Go Test.TestMapMutex in go_learning/src/map.executor": "Run",
     "Go Test.TestObjPool in go_learning/ch24/obj_pool.executor": "Run",
     "Go Test.TestQuickSort in go_learning/ch1022/quick_sort.executor": "Run",
     "Go Test.TestSelect in go_learning/ch24/select.executor": "Run",
@@ -81,11 +116,11 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/xiaopangyuan",
+    "last_opened_file_path": "/Users/xiaopangyuan/GolandProjects/go_learning",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "settings.editor.selected.configurable": "leetcode.id"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,8 +130,12 @@
       <recent name="$PROJECT_DIR$/ch24/reflect" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/gin/gin01" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go_learning/ch25/tools/http">
+  <component name="RunManager" selected="Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy">
     <configuration name="go build go_learning/ch25/http_router" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,49 +154,46 @@
       <filePath value="$PROJECT_DIR$/ch25/tools/http/fb_server.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEmbeddedJson in go_learning/ch25/easyjson" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_learning/src/gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch25/easyjson" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch25/easyjson" />
+      <package value="go_learning/src/gin" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestEmbeddedJson\E$" />
+      <filePath value="$PROJECT_DIR$/src/gin/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEmbeddedJson in go_learning/ch25/json" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLengthOfLongestSubstring in go_learning/src/leetcode/easy" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch25/json" />
+      <working_directory value="$PROJECT_DIR$/src/leetcode/easy" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch25/json" />
+      <package value="go_learning/src/leetcode/easy" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestEmbeddedJson\E$" />
+      <pattern value="^\QTestLengthOfLongestSubstring\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSumElems in go_learning/ch25/pipe_filter/pipe_filter" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapMutex in go_learning/src/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/ch25/pipe_filter/pipe_filter" />
+      <working_directory value="$PROJECT_DIR$/src/map" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/ch25/pipe_filter/pipe_filter" />
+      <package value="go_learning/src/map" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestSumElems\E$" />
+      <pattern value="^\QTestMapMutex\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy" />
+        <item itemvalue="Go Test.TestMapMutex in go_learning/src/map" />
+        <item itemvalue="Go Build.go build go_learning/src/gin" />
         <item itemvalue="Go Build.go build go_learning/ch25/tools/http" />
         <item itemvalue="Go Build.go build go_learning/ch25/http_router" />
-        <item itemvalue="Go Test.TestEmbeddedJson in go_learning/ch25/easyjson" />
-        <item itemvalue="Go Test.TestEmbeddedJson in go_learning/ch25/json" />
-        <item itemvalue="Go Test.TestSumElems in go_learning/ch25/pipe_filter/pipe_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +207,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="结构体 及其行为" />
