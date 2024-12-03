@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface">
-      <change afterPath="$PROJECT_DIR$/src/pointer/pointer_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/base_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/channel_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/context_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/select_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pointer/pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointer/pointer_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +52,15 @@
     "Go Build.go build go_learning/src/gin.executor": "Run",
     "Go Test.BenchmarkConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
     "Go Test.BenchmarkConcatStringByBytesBuffer in go_learning/ch24/benchmark.executor": "Run",
+    "Go Test.TestArrayPointer in go_learning/src/pointer.executor": "Run",
     "Go Test.TestAsyncService in go_learning/ch24/csp.executor": "Run",
     "Go Test.TestAtomic in go_learning/ch24/unsafe_programming.executor": "Run",
     "Go Test.TestBubbleSort in go_learning/ch1021/test_bulllesort.executor": "Run",
+    "Go Test.TestChannel in go_learning/src/concurrent.executor": "Run",
+    "Go Test.TestChannelForRange in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestCloseChannel in go_learning/ch24/channel_close.executor": "Run",
     "Go Test.TestConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
+    "Go Test.TestContext in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestCounterThreadSafe in go_learning/ch24/share_memory.executor": "Run",
     "Go Test.TestCounterWaitGroup in go_learning/ch24/share_memory.executor": "Run",
     "Go Test.TestCreateEmployeeObj in go_learning/ch06/encap_test.executor": "Run",
@@ -67,17 +75,27 @@
     "Go Test.TestFn in go_learning/ch11/customer_type.executor": "Run",
     "Go Test.TestGetSingletonObj in go_learning/ch24/singleton.executor": "Run",
     "Go Test.TestGoroutine in go_learning/ch24/goroutine.executor": "Run",
+    "Go Test.TestGoroutine in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestGoruntime in go_learning/ch11/goruntime.executor": "Run",
     "Go Test.TestInterface in go_learning/ch22/interface_test.executor": "Run",
     "Go Test.TestInvokeByName in go_learning/ch24/reflect.executor": "Run",
     "Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy.executor": "Run",
+    "Go Test.TestLock in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestMapMutex in go_learning/src/map.executor": "Run",
     "Go Test.TestObjPool in go_learning/ch24/obj_pool.executor": "Run",
     "Go Test.TestPointer in go_learning/src/pointer.executor": "Run",
+    "Go Test.TestPointerMap in go_learning/src/pointer.executor": "Run",
+    "Go Test.TestPointerSlice in go_learning/src/pointer.executor": "Run",
+    "Go Test.TestPointerStruct in go_learning/src/pointer.executor": "Run",
+    "Go Test.TestPrintChannel in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestQuickSort in go_learning/ch1022/quick_sort.executor": "Run",
+    "Go Test.TestRwLock in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestSelect in go_learning/ch24/select.executor": "Run",
+    "Go Test.TestSelect in go_learning/src/concurrent.executor": "Run",
+    "Go Test.TestSelectChannel in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestService in go_learning/ch24/csp.executor": "Run",
     "Go Test.TestShareMemory in go_learning/ch24/share_memory.executor": "Run",
+    "Go Test.TestSignChannel in go_learning/src/concurrent.executor": "Run",
     "Go Test.TestSingleton in go_learning/ch11/singleton.executor": "Run",
     "Go Test.TestSpec in go_learning/ch24/bdd.executor": "Run",
     "Go Test.TestSquare in go_learning/ch24/unit_test.executor": "Run",
@@ -112,68 +130,74 @@
       <recent name="$PROJECT_DIR$/gin/gin01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestPointer in go_learning/src/pointer">
-    <configuration name="go build go_learning/ch25/tools/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestContext in go_learning/src/concurrent">
+    <configuration name="TestContext in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/ch25/tools/http" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/ch25/tools/http/fb_server.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go_learning/src/gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go_learning/src/gin" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/gin/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestLengthOfLongestSubstring in go_learning/src/leetcode/easy" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/leetcode/easy" />
+      <working_directory value="$PROJECT_DIR$/src/concurrent" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/leetcode/easy" />
+      <package value="go_learning/src/concurrent" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestLengthOfLongestSubstring\E$" />
+      <pattern value="^\QTestContext\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMapMutex in go_learning/src/map" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrintChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/map" />
+      <working_directory value="$PROJECT_DIR$/src/concurrent" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/map" />
+      <package value="go_learning/src/concurrent" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestMapMutex\E$" />
+      <pattern value="^\QTestPrintChannel\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPointer in go_learning/src/pointer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSelect in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/pointer" />
+      <working_directory value="$PROJECT_DIR$/src/concurrent" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/pointer" />
+      <package value="go_learning/src/concurrent" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestPointer\E$" />
+      <pattern value="^\QTestSelect\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSelectChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/src/concurrent" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/src/concurrent" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSelectChannel\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSignChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go_learning" />
+      <working_directory value="$PROJECT_DIR$/src/concurrent" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go_learning/src/concurrent" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSignChannel\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestPointer in go_learning/src/pointer" />
-        <item itemvalue="Go Test.TestLengthOfLongestSubstring in go_learning/src/leetcode/easy" />
-        <item itemvalue="Go Test.TestMapMutex in go_learning/src/map" />
-        <item itemvalue="Go Build.go build go_learning/src/gin" />
-        <item itemvalue="Go Build.go build go_learning/ch25/tools/http" />
+        <item itemvalue="Go Test.TestContext in go_learning/src/concurrent" />
+        <item itemvalue="Go Test.TestSelectChannel in go_learning/src/concurrent" />
+        <item itemvalue="Go Test.TestSelect in go_learning/src/concurrent" />
+        <item itemvalue="Go Test.TestPrintChannel in go_learning/src/concurrent" />
+        <item itemvalue="Go Test.TestSignChannel in go_learning/src/concurrent" />
       </list>
     </recent_temporary>
   </component>
