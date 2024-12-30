@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package helloworld_proto;
+
+// 添加 go_package 选项，指定 Go 包路径
+//option go_package = "github.com/yourusername/yourrepo/helloworld";
+
+// 定义消息
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}

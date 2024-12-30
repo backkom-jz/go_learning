@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526381d8-4907-4a43-b593-e2515e8760dc" name="Changes" comment="interface">
-      <change afterPath="$PROJECT_DIR$/src/concurrent/base_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrent/channel_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrent/context_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrent/select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grpc_test/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grpc_test/pb/helloworld.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grpc_test/proto/helloworld.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grpc_test/proto/helloworld.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grpc_test/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloworld_proto/proto/helloworld.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpc/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpc/rpc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpc/server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpcgo/client/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpcgo/server/service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pointer/pointer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/pointer/pointer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.work" beforeDir="false" afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.work.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrent/base_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrent/base_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +61,13 @@
     "Go Build.go build go_learning/ch25/http_router.executor": "Run",
     "Go Build.go build go_learning/ch25/tools/http.executor": "Run",
     "Go Build.go build go_learning/src/gin.executor": "Run",
+    "Go Build.go build go_learning/src/grpc_test/client.executor": "Run",
+    "Go Build.go build go_learning/src/grpc_test/server.executor": "Run",
+    "Go Build.go build go_learning/src/rpc/client.executor": "Coverage",
+    "Go Build.go build go_learning/src/rpc/server.executor": "Coverage",
+    "Go Build.go build go_learning/src/rpcgo/client.executor": "Run",
+    "Go Build.go build go_learning/src/rpcgo/server.executor": "Run",
+    "Go Build.go build main.go.executor": "Coverage",
     "Go Test.BenchmarkConcatStringByAdd in go_learning/ch24/benchmark.executor": "Run",
     "Go Test.BenchmarkConcatStringByBytesBuffer in go_learning/ch24/benchmark.executor": "Run",
     "Go Test.TestArrayPointer in go_learning/src/pointer.executor": "Run",
@@ -75,7 +93,7 @@
     "Go Test.TestFn in go_learning/ch11/customer_type.executor": "Run",
     "Go Test.TestGetSingletonObj in go_learning/ch24/singleton.executor": "Run",
     "Go Test.TestGoroutine in go_learning/ch24/goroutine.executor": "Run",
-    "Go Test.TestGoroutine in go_learning/src/concurrent.executor": "Run",
+    "Go Test.TestGoroutine in go_learning/src/concurrent.executor": "Debug",
     "Go Test.TestGoruntime in go_learning/ch11/goruntime.executor": "Run",
     "Go Test.TestInterface in go_learning/ch22/interface_test.executor": "Run",
     "Go Test.TestInvokeByName in go_learning/ch24/reflect.executor": "Run",
@@ -111,93 +129,80 @@
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/xiaopangyuan/GolandProjects/go_learning",
+    "last_opened_file_path": "/Users/xiaopangyuan/GolandProjects/go_learning/src",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "leetcode.id"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/ch25" />
       <recent name="$PROJECT_DIR$/ch24" />
       <recent name="$PROJECT_DIR$/ch24/reflect" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/helloworld_proto" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/gin/gin01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestContext in go_learning/src/concurrent">
-    <configuration name="TestContext in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go_learning/src/grpc_test/client">
+    <configuration name="go build go_learning/src/grpc_test/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/concurrent" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/concurrent" />
+      <package value="go_learning/src/grpc_test/client" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestContext\E$" />
+      <filePath value="$PROJECT_DIR$/src/grpc_test/client/client.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestPrintChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_learning/src/grpc_test/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/concurrent" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/concurrent" />
+      <package value="go_learning/src/grpc_test/server" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestPrintChannel\E$" />
+      <filePath value="$PROJECT_DIR$/src/grpc_test/server/server.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSelect in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_learning/src/rpc/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/concurrent" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/concurrent" />
+      <package value="go_learning/src/rpc/server" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSelect\E$" />
+      <filePath value="$PROJECT_DIR$/src/rpc/server/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSelectChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_learning/src/rpcgo/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/concurrent" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/concurrent" />
+      <package value="go_learning/src/rpcgo/client" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSelectChannel\E$" />
+      <filePath value="$PROJECT_DIR$/src/rpcgo/client/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSignChannel in go_learning/src/concurrent" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go_learning/src/rpcgo/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go_learning" />
-      <working_directory value="$PROJECT_DIR$/src/concurrent" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go_learning/src/concurrent" />
+      <package value="go_learning/src/rpcgo/server" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSignChannel\E$" />
+      <filePath value="$PROJECT_DIR$/src/rpcgo/server/service.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestContext in go_learning/src/concurrent" />
-        <item itemvalue="Go Test.TestSelectChannel in go_learning/src/concurrent" />
-        <item itemvalue="Go Test.TestSelect in go_learning/src/concurrent" />
-        <item itemvalue="Go Test.TestPrintChannel in go_learning/src/concurrent" />
-        <item itemvalue="Go Test.TestSignChannel in go_learning/src/concurrent" />
+        <item itemvalue="Go Build.go build go_learning/src/grpc_test/client" />
+        <item itemvalue="Go Build.go build go_learning/src/grpc_test/server" />
+        <item itemvalue="Go Build.go build go_learning/src/rpcgo/client" />
+        <item itemvalue="Go Build.go build go_learning/src/rpcgo/server" />
+        <item itemvalue="Go Build.go build go_learning/src/rpc/server" />
       </list>
     </recent_temporary>
   </component>
@@ -231,5 +236,10 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go_learning$go_build_main_go.out" NAME="go build main.go Coverage Results" MODIFIED="1734278151821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_learning$go_build_go_learning_src_rpc_client.out" NAME="go build go_learning/src/rpc/client Coverage Results" MODIFIED="1734278143008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go_learning$go_build_go_learning_src_rpc_server.out" NAME="go build go_learning/src/rpc/server Coverage Results" MODIFIED="1734278270344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

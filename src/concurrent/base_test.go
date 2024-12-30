@@ -150,7 +150,7 @@ func TestRwLock(t *testing.T) {
 	}()
 
 	time.Sleep(time.Second)
-	// 读的goruntine
+	// 读的goroutine
 	for i := 0; i < 5; i++ {
 		go func() {
 			defer wg.Done()
